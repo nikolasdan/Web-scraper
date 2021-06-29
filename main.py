@@ -11,10 +11,9 @@ for data in products:
     title_prod = data.find(class_="productTitle")
     link_prod = data.find('a')['href']
     price_prod = data.find(class_="price")
-    stoc_status = data.find(class_="infoStocElem")
+    stoc_status = data.find(class_="info_stoc")
     print(title_prod.text)
     print(link_prod)
     print(price_prod.text + " lei")
     print(stoc_status.text)
     print("\n")
-    
