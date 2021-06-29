@@ -17,3 +17,4 @@ for data in products:
     print(price_prod.text + " lei")
     print(stoc_status.text)
     print("\n")
+    
